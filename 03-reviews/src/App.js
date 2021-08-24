@@ -1,20 +1,19 @@
-import React from 'react';
-import Review from './Review';
-function App() {
+import React from 'react'
+import Review from './Review'
+function App () {
   return (
-  <main>
-    <section>
-      <div className="container">
-        <div className="title">
-          <h2>our reviews</h2>
-          <div className="underline"></div>
+    <main>
+      <section>
+        <div className='container'>
+          <div className='title'>
+            <h2>our reviews</h2>
+            <div className='underline'></div>
+          </div>
+          <Review />
         </div>
-        <Review/>
-      </div>
-    </section>
-  </main>
-  
-  );
+      </section>
+    </main>
+  )
 }
 
-export default App;
+export default App
